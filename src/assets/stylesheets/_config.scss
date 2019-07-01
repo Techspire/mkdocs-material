@@ -57,9 +57,14 @@ $break-devices: (
 // Variables: base colors
 // ----------------------------------------------------------------------------
 
+// Web3 Labs colors
+$clr-web3labs-primary:                #483afc;
+$clr-web3labs-accent:                 #786dfd;
+
 // Primary and accent colors
-$md-color-primary:                    $clr-indigo-500 !default;
-$md-color-accent:                     $clr-indigo-a200 !default;
+$md-color-primary:                    $clr-web3labs-primary !default;
+$md-color-accent:                     $clr-web3labs-primary !default;
+
 
 // Shades of black
 $md-color-black:                      hsla(0, 0%, 0%, 0.87) !default;
